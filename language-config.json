@@ -1,0 +1,6 @@
+{
+  "environment": "test",
+  "ads_enabled": true,
+  "rewarded_ads_enabled": true,
+  "rewarded_ad_unit_id_android": "ca-app-pub-3940256099942544/5224354917"
+}
