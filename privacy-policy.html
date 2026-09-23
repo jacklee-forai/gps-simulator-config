@@ -3,111 +3,79 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>GPS 模擬器｜位置模擬－隱私權政策</title>
+  <title>GPS 模擬器｜位置模擬－隱私權政策 / Privacy Policy</title>
+  <style>
+    body { font-family: system-ui, sans-serif; line-height: 1.6; max-width: 920px; margin: auto; padding: 24px; color: #202124; }
+    nav a { margin-right: 16px; }
+    h1, h2 { line-height: 1.25; }
+    section { margin: 32px 0; }
+  </style>
 </head>
-
 <body>
 <main>
+  <h1>GPS 模擬器｜位置模擬－隱私權政策</h1>
+  <p><strong>最後更新：2026-09-23</strong></p>
+  <nav>
+    <a href="#zh">繁體中文</a>
+    <a href="#en">English</a>
+    <a href="#ja">日本語</a>
+  </nav>
 
-<h1>GPS 模擬器｜位置模擬－隱私權政策</h1>
+  <section id="zh" lang="zh-Hant">
+    <h2>繁體中文</h2>
+    <p>本政策適用於「GPS 模擬器｜位置模擬」（套件名稱：com.jacklee.gpssimulator）。開發者及隱私聯絡人：李家豪；電子郵件：<a href="mailto:a0980500032@gmail.com">a0980500032@gmail.com</a>。</p>
 
-<p>最後更新：2026-09-14</p>
+    <h3>1. App 處理的資料與用途</h3>
+    <ul>
+      <li><strong>精確或約略位置：</strong>取得使用者目前位置、顯示地圖及在裝置上產生模擬位置。選擇的起點、方向、速度及模擬座標主要在裝置本機處理。開發者沒有建立位置歷史資料庫，也不會把這些座標傳到開發者自有伺服器。</li>
+      <li><strong>App 操作與診斷資料、IP 位址及裝置識別碼：</strong>若遠端設定啟用廣告，Google Mobile Ads（AdMob）可能為廣告、分析及防詐騙而自動收集或分享 IP 位址、App 啟動／點擊／影片觀看等互動、效能與診斷資料，以及廣告 ID、App Set ID 或其他適用的裝置／帳戶識別碼。IP 位址可能用於推估約略位置。資料傳輸使用 TLS。</li>
+      <li><strong>同意狀態：</strong>Google User Messaging Platform（UMP）依所在地區及已發布的隱私訊息管理廣告同意與隱私選項。適用時，App 內會顯示「廣告隱私選項」供使用者修改選擇。拒絕個人化廣告不代表一定不會顯示非個人化或受限制的廣告。</li>
+    </ul>
 
-<h2>1. 位置資料與 GPS 模擬</h2>
+    <h3>2. 地圖與遠端設定</h3>
+    <p>地圖畫面會向 unpkg 取得 Leaflet 程式，並向 OpenStreetMap 取得地圖圖磚。這些請求可能包含 IP 位址、瀏覽器／裝置與網路資訊、請求時間，以及可反映使用者正在查看之地理區域的圖磚座標。App 也會向 GitHub 讀取公開的設定檔，用於廣告開關及最低支援版本／強制更新；該請求不包含模擬座標，但 GitHub 可能處理一般請求紀錄及 IP 位址。</p>
 
-<p>
-本 App 需要位置權限才能取得目前位置並使用 Android Mock Location。
-使用者選擇的模擬起始位置、方向、速度及 App 產生的模擬座標主要在裝置本機處理，
-用於 GPS 模擬。
-本開發者沒有自行建立的 GPS 位置歷史資料庫，
-也不會因 GPS 模擬功能將這些資料傳送至開發者自有伺服器。
-</p>
+    <h3>3. 分享對象</h3>
+    <p>資料可能由下列服務依其角色與政策處理：Google AdMob／UMP、OpenStreetMap、unpkg（由 Cloudflare 提供）、GitHub。開發者不出售使用者的精確位置，亦不將精確位置提供給廣告服務。</p>
+    <ul>
+      <li><a href="https://policies.google.com/privacy">Google 隱私權政策</a></li>
+      <li><a href="https://policies.google.com/technologies/partner-sites">Google 使用合作夥伴資料的方式</a></li>
+      <li><a href="https://osmfoundation.org/wiki/Privacy_Policy">OpenStreetMap Foundation 隱私政策</a></li>
+      <li><a href="https://www.cloudflare.com/privacypolicy/">Cloudflare 隱私政策</a></li>
+      <li><a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">GitHub 隱私聲明</a></li>
+    </ul>
 
-<h2>2. 地圖與第三方網路服務</h2>
+    <h3>4. 保留、刪除與安全</h3>
+    <p>開發者不建立帳號，也不建立 GPS 位置歷史資料庫，因此沒有由開發者持有的帳號或位置歷史可供刪除。App 本機設定可透過 Android 的「清除儲存空間」或移除 App 刪除。第三方服務各自依其政策保留、保護及刪除資料；使用者可使用 Android 廣告 ID 控制與 App 內廣告隱私選項管理適用選擇。網路連線使用 HTTPS／TLS；App 禁止明文 HTTP 流量。</p>
 
-<p>
-本 App 的地圖畫面使用 Leaflet JavaScript 地圖函式庫，
-Leaflet 的 JavaScript 檔案由 unpkg.com 載入；
-地圖圖磚由 OpenStreetMap 提供。
-顯示地圖時，App 會向這些第三方服務發出必要的網路請求。
-</p>
+    <h3>5. 其他</h3>
+    <p>本 App 不要求帳號，也不由開發者收集姓名、電話、聯絡人、照片、密碼或付款資料。本 App 不以兒童為主要目標使用者。政策因功能、供應商或法規變更時會更新此頁日期。</p>
+  </section>
 
-<p>
-地圖圖磚請求會包含完成網路請求所需的資訊，例如 IP 位址、
-裝置與網路環境相關資訊，以及請求的地圖圖磚。
-由於地圖圖磚對應特定地理區域，
-第三方地圖服務可能由請求內容推知使用者當時正在查看的地圖區域。
-</p>
+  <section id="en" lang="en">
+    <h2>English</h2>
+    <p>This policy applies to “GPS Simulator | Location Simulation” (package com.jacklee.gpssimulator). Developer and privacy contact: Jia-Hao Lee (李家豪), <a href="mailto:a0980500032@gmail.com">a0980500032@gmail.com</a>.</p>
 
-<p>
-這些地圖網路請求的用途是顯示地圖，
-不是將 GPS 模擬座標上傳給本 App 開發者的伺服器。
-</p>
+    <h3>Data and purposes</h3>
+    <p>The app uses precise or approximate location to obtain the device's current location, display the map, and generate mock locations on the device. Selected starting points, direction, speed, and simulated coordinates are mainly processed locally. The developer does not maintain a location history database or send those coordinates to a developer-owned server.</p>
+    <p>When ads are enabled by remote configuration, Google Mobile Ads may automatically collect or share IP address, app interactions, diagnostics, advertising ID, App Set ID, and other applicable device or account identifiers for advertising, analytics, and fraud prevention. IP address may be used to estimate general location. Google UMP manages consent and privacy choices based on region and the messages published by the developer. Where required, the app displays an “Ad privacy choices” entry point.</p>
 
-<p>
-Leaflet、unpkg.com、OpenStreetMap、Google Mobile Ads/AdMob、
-Google UMP、GitHub 等第三方服務各自可能依其服務政策處理
-IP 位址、裝置資訊、請求紀錄或其他必要資料；
-其實際資料處理方式以各服務當時公布的隱私權政策為準。
-</p>
+    <h3>Maps, configuration, and recipients</h3>
+    <p>The map requests Leaflet from unpkg and map tiles from OpenStreetMap. These services may receive IP address, device/network request information, time, and tile coordinates that indicate the map area being viewed. The app reads a public GitHub configuration for ads and minimum supported version/forced update; this request does not include simulated coordinates. Data may be processed by Google AdMob/UMP, OpenStreetMap, unpkg/Cloudflare, and GitHub under the policies linked in the Chinese section. The developer does not sell precise location or provide precise location to advertising services.</p>
 
-<h2>3. 廣告與 UMP</h2>
+    <h3>Retention, deletion, and security</h3>
+    <p>The app has no user accounts and the developer stores no location history. Local app settings can be removed by clearing app storage or uninstalling the app. Third parties retain and delete data under their own policies. Users can use Android advertising ID controls and the in-app privacy choices where available. Network traffic uses HTTPS/TLS and cleartext HTTP is disabled.</p>
+    <p>The developer does not request or collect names, phone numbers, contacts, photos, passwords, or payment information. The app is not primarily directed to children. This policy will be updated when features, providers, or applicable requirements change.</p>
+  </section>
 
-<p>
-目前遠端設定為關閉廣告。
-若未來遠端設定啟用廣告，
-本 App 可能使用 Google Mobile Ads（AdMob）與 Google UMP。
-廣告是否個人化及可使用的廣告服務模式，
-會依使用者的同意狀態、所在地區及 Google 廣告服務規則處理。
-拒絕個人化廣告不等於一定不會看到廣告。
-</p>
-
-<h2>4. GitHub 遠端設定</h2>
-
-<p>
-App 可能讀取 GitHub 上公開的靜態 config.json，
-只用於取得是否啟用廣告的設定。
-該檔案不包含使用者個人資料，
-也不是 GPS 模擬資料上傳服務。
-</p>
-
-<h2>5. 我們不收集的資料</h2>
-
-<p>
-本 App 不要求使用者建立帳號，
-也不由開發者收集姓名、電話、電子郵件、聯絡人、
-照片、密碼或付款資料。
-</p>
-
-<h2>6. 資料保留與刪除</h2>
-
-<p>
-開發者不建立 GPS 位置歷史資料庫，
-因此沒有由開發者提供的 GPS 歷史資料刪除流程。
-第三方服務的資料保留與刪除，
-依各第三方服務政策及使用者可用的設定／權利處理。
-</p>
-
-<h2>7. 兒童隱私</h2>
-
-<p>
-本 App 不以兒童為主要目標使用者。
-若第三方服務適用不同的兒童資料處理規則，
-則依其政策處理。
-</p>
-
-<h2>8. 政策更新與聯絡方式</h2>
-
-<p>
-本政策可能因 App 功能、第三方服務或法規變更而更新。
-最新版本會公布於本 App 的隱私權政策頁面。
-</p>
-
-<p>
-開發者：李家豪<br>
-聯絡信箱：a0980500032@gmail.com
-</p>
-
+  <section id="ja" lang="ja">
+    <h2>日本語</h2>
+    <p>本ポリシーは「GPS シミュレーター｜位置情報シミュレーション」（パッケージ：com.jacklee.gpssimulator）に適用されます。開発者・プライバシー窓口：李家豪、<a href="mailto:a0980500032@gmail.com">a0980500032@gmail.com</a>。</p>
+    <p>本アプリは、現在地の取得、地図表示、および端末上でのモック位置生成のため、正確またはおおよその位置情報を使用します。選択した開始地点、方向、速度、模擬座標は主に端末内で処理され、開発者のサーバーへ送信されません。開発者は位置履歴データベースを保持しません。</p>
+    <p>広告がリモート設定で有効な場合、Google Mobile Ads は広告、分析、不正防止のため、IP アドレス、アプリ操作、診断情報、広告 ID、App Set ID、その他該当する端末／アカウント識別子を自動的に収集または共有する場合があります。Google UMP は地域と公開されたメッセージに基づいて同意を管理し、必要な場合はアプリ内に「広告のプライバシー設定」を表示します。</p>
+    <p>地図は unpkg から Leaflet を、OpenStreetMap から地図タイルを取得します。これらのサービスは IP アドレス、端末・ネットワーク情報、時刻、閲覧地域を示すタイル座標を受け取る場合があります。GitHub 上の公開設定は広告と最低対応バージョン／強制更新に使用され、模擬座標は含みません。データは Google AdMob/UMP、OpenStreetMap、unpkg/Cloudflare、GitHub により各社のポリシーに従って処理される場合があります。</p>
+    <p>ユーザーアカウントや開発者が保持する位置履歴はありません。端末内設定はストレージ消去またはアンインストールで削除できます。通信は HTTPS/TLS を使用します。本アプリは主に子どもを対象としていません。氏名、電話番号、連絡先、写真、パスワード、決済情報を開発者が収集することはありません。</p>
+  </section>
 </main>
 </body>
 </html>
