@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>數獨日課｜隱私權政策</title>
+  <style>
+    body {
+      margin: 0;
+      background: #f6f7fb;
+      color: #202124;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+        "Noto Sans TC", Arial, sans-serif;
+      line-height: 1.8;
+    }
+
+    main {
+      max-width: 760px;
+      margin: 40px auto;
+      padding: 32px;
+      background: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    h1 {
+      margin-top: 0;
+      color: #202124;
+    }
+
+    h2 {
+      margin-top: 28px;
+      color: #3949ab;
+    }
+
+    a {
+      color: #3949ab;
+      word-break: break-word;
+    }
+
+    .date {
+      color: #666;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>數獨日課隱私權政策</h1>
+
+    <p class="date">生效日期：2026 年 9 月 27 日</p>
+
+    <p>
+      本隱私權政策適用於 Google Play 上的「數獨日課」應用程式，
+      說明本應用程式如何處理使用者資料。
+    </p>
+
+    <h2>一、開發者與聯絡方式</h2>
+    <p>
+      應用程式：數獨日課<br>
+      隱私權聯絡人：Jack<br>
+      聯絡信箱：
+      <a href="mailto:a0980500032@gmail.com">
+        a0980500032@gmail.com
+      </a>
+    </p>
+
+    <h2>二、帳號與資料收集</h2>
+    <p>
+      本應用程式不要求使用者建立帳號或登入。
+      依目前版本功能，本應用程式不主動收集、出售或分享使用者的個人資料，
+      也不會將遊戲資料上傳至開發者伺服器。
+    </p>
+
+    <h2>三、儲存在裝置上的資料</h2>
+    <p>
+      遊戲進度、筆記、統計資料及使用者偏好會儲存在使用者自己的裝置中，
+      用於保存遊戲狀態與設定。
+    </p>
+
+    <h2>四、資料分享</h2>
+    <p>
+      本應用程式不會將上述本機資料分享給開發者、廣告商或其他第三方。
+    </p>
+
+    <h2>五、資料刪除</h2>
+    <p>
+      使用者可以在應用程式中刪除個別題目的進度。
+      若要刪除裝置上的全部應用程式資料，
+      可以使用 Android 系統的「清除應用程式資料」功能，
+      或解除安裝本應用程式。
+    </p>
+
+    <h2>六、資料安全</h2>
+    <p>
+      由於資料只儲存在使用者自己的裝置上，
+      資料安全性也會受到裝置系統、鎖定方式及使用者保護措施影響。
+    </p>
+
+    <h2>七、政策變更</h2>
+    <p>
+      如果應用程式功能或資料處理方式有所變更，
+      我們會更新本頁面的內容與生效日期。
+    </p>
+
+    <h2>八、聯絡我們</h2>
+    <p>
+      如果你對本隱私權政策有任何疑問，
+      請寄信至
+      <a href="mailto:a0980500032@gmail.com">
+        a0980500032@gmail.com
+      </a>。
+    </p>
+  </main>
+</body>
+</html>
