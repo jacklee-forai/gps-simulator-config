@@ -1,8 +1,8 @@
 {
   "environment": "production",
-  "ads_enabled": false,
+  "ads_enabled": true,
   "rewarded_ads_enabled": true,
   "banner_ads_enabled": true,
-  "app_open_ads_enabled": true,
+  "app_open_ads_enabled": false,
   "minimum_version_code": 0
 }
