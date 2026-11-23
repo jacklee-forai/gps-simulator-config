@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>紫微斗數命盤｜隱私權政策</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #243746;
+      --muted: #5f6f79;
+      --paper: #fffaf4;
+      --card: #ffffff;
+      --accent: #bd654d;
+      --line: #eadfd4;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+      line-height: 1.8;
+    }
+    main {
+      width: min(760px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 36px 0 56px;
+    }
+    header, section {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 24px;
+      margin-bottom: 16px;
+    }
+    h1 { margin: 0 0 8px; font-size: 1.8rem; }
+    h2 { margin: 0 0 10px; font-size: 1.2rem; }
+    p { margin: 8px 0; }
+    ul { margin: 8px 0; padding-left: 1.4rem; }
+    .meta { color: var(--muted); font-size: .95rem; }
+    a { color: var(--accent); }
+    footer { color: var(--muted); font-size: .9rem; text-align: center; padding-top: 8px; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>紫微斗數命盤｜隱私權政策</h1>
+      <p class="meta">最後更新日期：2026 年 11 月 23 日（AI 功能 v0.3.54）</p>
+      <p>「紫微斗數命盤」（以下稱「本 App」）重視使用者的隱私。本政策說明本 App 如何處理資料。</p>
+    </header>
+
+    <section>
+      <h2>一、資料由誰負責</h2>
+      <p>本 App 由 Jack Lee 維護。若對隱私或資料處理有疑問，請聯絡：<a href="mailto:a0980500032@gmail.com">a0980500032@gmail.com</a>。</p>
+    </section>
+
+    <section>
+      <h2>二、本 App 可能保存的資料</h2>
+      <p>為了建立與顯示命盤，本 App 可能在裝置本機保存使用者主動輸入或建立的資料，例如：</p>
+      <ul>
+        <li>命盤名稱或姓名</li>
+        <li>性別</li>
+        <li>國曆出生日期、出生時間</li>
+        <li>由上述資料計算出的命盤、運限與解讀結果</li>
+        <li>使用者在 App 內的顯示或操作設定</li>
+      </ul>
+      <p>命盤資料主要儲存在使用者自己的裝置上。本 App 不要求使用者建立帳號，也不提供命盤自動雲端同步。AI 功能會使用 Firebase 匿名身分識別來控管使用次數，不需要使用者輸入帳號密碼。</p><p>使用者自行產生的 AI 解盤報告、聊天內容、摘要及草稿保存在裝置本機；可以在 App 內查看、刪除或匯出備份。備份為未加密的 JSON 檔案，請妥善保管。</p>
+    </section>
+
+    <section>
+      <h2>三、排盤與解讀</h2>
+      <p>本 App 的紫微斗數<strong>排盤</strong>與原有白話解讀由 App 內建的固定規則在本機計算；新的選擇性「AI 智慧解盤」功能，會在使用者首次明確同意、獲得獎勵廣告資格後，使用 Google Gemini 依已計算命盤提供傳統命理文字解讀。Gemini 不負責重新計算命盤。</p><p>AI 呼叫時會將<strong>必要的結構化十二宮資料、星曜、四化、相關運限、使用者問題及必要的近期對話與較早摘要</strong>送往 Google 雲端服務。App 不主動傳送姓名或原始出生日期／時間，但命盤、提問與匿名識別仍可能構成個人資料。使用者自行寫入提問的個人資訊會隨問題傳送，請避免輸入不必要的姓名、聯絡資訊或出生資料。使用者可以拒絕或在設定撤回同意，之後不再啟動新的 AI 傳送；原有離線排盤保持可用。</p><p>為了驗證獎勵廣告、控制每天使用次數及排程背景任務，部分命盤片段、提問、聊天摘要、請求編號、匿名識別及成本資訊會暫存於 Firebase/Google Cloud 後端。結果由使用者領取、保存於手機並確認收件後，伺服器會清除相關問題與解讀內容。未領取的完成結果最多保留 180 天、失敗請求最多保留 30 天；已收件、取消及過期狀態紀錄最多保留 7 天，廣告防重交易紀錄最多保留 90 天，每日用量計數保留 45 天，週期預算保留彙總計數。到期內容透過定期排程分批清理，實際刪除時間可能受服務狀態影響。</p>
+      <p>排盤與解讀內容僅供個人研究與參考，不構成醫療、投資、法律或其他專業建議。</p>
+    </section>
+
+    <section>
+      <h2>四、廣告與第三方服務</h2>
+      <p>AI 智慧解盤與 AI 問答也需使用者自願觀看獎勵廣告（可與原有功能共用廣告單元，但獎勵用途分開）；獎勵由 Google AdMob 伺服器簽章驗證，未取得獎勵不啟動有費用的 AI 解讀。本 App 使用 Google Mobile Ads 提供獎勵廣告、插頁廣告與應用程式開啟廣告。獎勵廣告可由使用者選擇觀看，以解鎖所選時間的命盤與分析；插頁廣告可能在使用者進入流月等自然頁面切換時顯示。應用程式開啟廣告可能於啟動 App 的載入畫面顯示，也可能在使用者離開 App 一段時間後返回前景時顯示；廣告未準備好、載入失敗或不符合顯示間隔時會略過，不會因等待廣告而無限期阻擋進入 App。廣告載入與播放需要網路連線。</p>
+      <p>廣告服務商可能依其政策處理裝置資訊、廣告識別碼、IP 位址、診斷資料與廣告互動資料，以提供、衡量及防止濫用廣告服務。</p>
+      <p>Google 的隱私權政策請參閱：<a href="https://policies.google.com/privacy">Google 隱私權政策</a>。</p>
+    </section>
+
+    <section>
+      <h2>五、裝置權限</h2>
+      <p>本 App 僅使用排盤、保存命盤與顯示解讀所需功能，不會要求與這些功能無關的裝置權限。</p>
+    </section>
+
+    <section>
+      <h2>六、資料刪除</h2>
+      <p>使用者可以在 App 內刪除已保存的命盤，也可獨立刪除 AI 解盤與問答紀錄。刪除命盤時可自行選擇是否保留既有 AI 歷史，預設保留。解除安裝 App 通常也會移除儲存在該 App 私有空間內的資料；本 App 已關閉 Android 自動備份及一般裝置轉移備份；重新安裝或換手機時不會自動還原命盤，請注意資料可能無法復原。</p>
+      <p>如需詢問資料處理方式，請寄信至 <a href="mailto:a0980500032@gmail.com">a0980500032@gmail.com</a>。</p>
+    </section>
+
+    <section>
+      <h2>七、政策更新</h2>
+      <p>若本 App 的資料處理方式或服務內容有重大變更，我們會更新本頁的內容與更新日期。更新後繼續使用本 App，即表示你已閱讀更新後的政策。</p>
+    </section>
+
+    <footer>紫微斗數命盤（Ziwei）｜目前主要提供台灣地區使用者</footer>
+  </main>
+</body>
+</html>
